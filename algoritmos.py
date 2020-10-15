@@ -5,4 +5,4 @@ def distancia_euclidiana(x_1, y_1, x_2, y_2):
     y = y_2 - y_1
     y1=math.pow(y,2)
     resultado = x1+y1
-    math.sqrt(resultado)
+    return(math.sqrt(resultado))
